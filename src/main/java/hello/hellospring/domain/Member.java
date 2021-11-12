@@ -4,6 +4,7 @@ public class Member {
 
     private Long id;
     private String name;
+    private String tel;
 
     public Long getId() {
         return id;
@@ -19,5 +20,13 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
     }
 }
